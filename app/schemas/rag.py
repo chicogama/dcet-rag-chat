@@ -14,3 +14,10 @@ class IngestResponse(BaseModel):
 class IndexResponse(BaseModel):
     status: str
     indexed_chunks: int
+
+
+class AnswerResponse(BaseModel):
+    question: str
+    answer: str
+    context: str
+    num_sources: int
