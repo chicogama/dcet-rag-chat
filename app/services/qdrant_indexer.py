@@ -10,7 +10,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# It's recommended to move these settings to a .env file and use a library like python-dotenv to load them.
 CHUNKS_DIR = os.getenv("CHUNKS_DIR", "./elasticsearch_chunks")
 QDRANT_HOST = os.getenv("QDRANT_HOST", "localhost")
 QDRANT_PORT = int(os.getenv("QDRANT_PORT", 6333))

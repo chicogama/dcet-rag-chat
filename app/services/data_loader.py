@@ -9,7 +9,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# It's recommended to move these settings to a .env file and use a library like python-dotenv to load them.
 ES_HOST = os.getenv("ES_HOST", "localhost")
 ES_PORT = os.getenv("ES_PORT", "9200")
 INDEX_NAME = os.getenv("ES_INDEX_NAME", "dcet-unifap-3")

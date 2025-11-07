@@ -1,2 +1,4 @@
 Dockerfile
 .env
+.conda
+__pycache__/
